@@ -1,3 +1,4 @@
+
 import { Layout } from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { ImpactStat } from "@/components/ui/impact-stat";
@@ -27,7 +28,7 @@ const Home = () => {
               We work to safeguard children and young people from harm through education, support, and advocacy.
             </p>
             <div className="flex flex-wrap gap-4 opacity-0 animate-fade-in delay-200">
-              <Button asChild size="lg" className="bg-prevented-accent hover:bg-prevented-accent/90 text-white font-medium">
+              <Button asChild size="lg" variant="donate" className="font-medium">
                 <a href="/donate">Donate Now</a>
               </Button>
               <Button asChild size="lg" variant="outline" className="bg-white/10 hover:bg-white/20 border-white">
@@ -136,7 +137,7 @@ const Home = () => {
               <Button asChild size="lg" className="bg-white text-prevented-green hover:bg-white/90">
                 <a href="/get-involved">Get Involved</a>
               </Button>
-              <Button asChild size="lg" variant="outline" className="border-white hover:bg-white/20">
+              <Button asChild size="lg" variant="donate">
                 <a href="/donate">Donate</a>
               </Button>
             </div>
